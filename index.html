@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judo Dan Examen Quiz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #c62828 0%, #b71c1c 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+
+        .header .subtitle {
+            font-size: 14px;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .content {
+            padding: 30px 20px;
+        }
+
+        .question-text {
+            font-size: 18px;
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .option-btn {
+            width: 100%;
+            padding: 18px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            font-weight: 500;
+            border: 2px solid #e0e0e0;
+            background: white;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: #333;
+        }
+
+        .option-btn:hover {
+            border-color: #c62828;
+            background: #fef5f5;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(198, 40, 40, 0.15);
+        }
+
+        .option-btn:active {
+            transform: translateY(0);
+        }
+
+        .primary-btn {
+            background: linear-gradient(135deg, #c62828 0%, #b71c1c 100%);
+            color: white;
+            border: none;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(198, 40, 40, 0.3);
+        }
+
+        .primary-btn:hover {
+            background: linear-gradient(135deg, #b71c1c 0%, #a71919 100%);
+            border: none;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(198, 40, 40, 0.4);
+        }
+
+        .technique-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 12px;
+            margin: 20px auto;
+            display: block;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .technique-name {
+            font-size: 28px;
+            font-weight: 300;
+            color: #c62828;
+            text-align: center;
+            margin: 30px 0;
+            letter-spacing: 1px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: #e0e0e0;
+            border-radius: 3px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #c62828 0%, #b71c1c 100%);
+            transition: width 0.3s ease;
+        }
+
+        .belt-result {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .belt-icon {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .belt-white { background: #ffffff; border: 3px solid #ddd; }
+        .belt-yellow { background: #ffd700; }
+        .belt-orange { background: #ff8c00; }
+        .belt-green { background: #28a745; }
+        .belt-blue { background: #007bff; }
+        .belt-brown { background: #8b4513; }
+        .belt-black { background: #1a1a1a; }
+
+        .score-text {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .belt-name {
+            font-size: 32px;
+            font-weight: 600;
+            color: #c62828;
+            margin-bottom: 30px;
+        }
+
+        .examinator-question {
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #c62828;
+            margin: 20px 0;
+        }
+
+        .question-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #999;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .answer-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .answer-btn {
+            flex: 1;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: 600;
+            border: 2px solid;
+            background: white;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-yes {
+            border-color: #28a745;
+            color: #28a745;
+        }
+
+        .btn-yes:hover {
+            background: #28a745;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+        }
+
+        .btn-no {
+            border-color: #dc3545;
+            color: #dc3545;
+        }
+
+        .btn-no:hover {
+            background: #dc3545;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(220, 53, 69, 0.3);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .content > * {
+            animation: fadeIn 0.4s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>JUDO DAN QUIZ</h1>
+            <div class="subtitle">道 | De weg naar meesterschap</div>
+        </div>
+
+        <div class="content">
+            <div id="setupScreen">
+                <div class="question-label">Stap 1 van 2</div>
+                <div class="question-text">Voor welke graad zwarte band ga jij trainen?</div>
+                <button class="option-btn" onclick="selectDan(1)">1e dan</button>
+                <button class="option-btn" onclick="selectDan(2)">2e dan</button>
+                <button class="option-btn" onclick="selectDan(3)">3e dan</button>
+            </div>
+
+            <div id="categoryScreen" class="hidden">
+                <div class="question-label">Stap 2 van 2</div>
+                <div class="question-text">Welke categorie technieken wil je oefenen?</div>
+                <button class="option-btn" onclick="selectCategory('Staand')">Staand</button>
+                <button class="option-btn" onclick="selectCategory('Grond')">Grond</button>
+                <button class="primary-btn option-btn hidden" id="startBtn" onclick="startQuiz()">Start Quiz</button>
+            </div>
+
+            <div id="quizScreen" class="hidden">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressBar"></div>
+                </div>
+                <div class="question-label" id="questionCounter">Vraag 1 van 12</div>
+                
+                <div id="techniqueQuestion" class="hidden">
+                    <div class="technique-name" id="techniqueName"></div>
+                    <button class="primary-btn option-btn" id="showImageBtn" onclick="showImage()">Toon Afbeelding</button>
+                    
+                    <div id="imageContainer" class="hidden">
+                        <img id="techniqueImage" class="technique-image" alt="Techniek">
+                        <div class="question-text">Beheers je deze techniek?</div>
+                        <div class="answer-buttons">
+                            <button class="answer-btn btn-yes" onclick="answerQuestion(true)">Ja</button>
+                            <button class="answer-btn btn-no" onclick="answerQuestion(false)">Nee</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="examinatorQuestion" class="hidden">
+                    <div class="examinator-question">
+                        <div class="question-text" id="examinatorText"></div>
+                    </div>
+                    <div class="question-text">Beheers je deze techniek?</div>
+                    <div class="answer-buttons">
+                        <button class="answer-btn btn-yes" onclick="answerQuestion(true)">Ja</button>
+                        <button class="answer-btn btn-no" onclick="answerQuestion(false)">Nee</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="resultsScreen" class="hidden">
+                <div class="belt-result">
+                    <div class="belt-icon" id="beltIcon">🥋</div>
+                    <div class="score-text">Je beheerst</div>
+                    <div class="belt-name" id="scoreName">0 van 12 technieken</div>
+                    <div class="belt-name" id="beltName"></div>
+                    <button class="primary-btn option-btn" onclick="resetQuiz()">Nieuwe Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

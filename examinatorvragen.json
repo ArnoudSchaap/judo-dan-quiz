@@ -1,0 +1,151 @@
+{
+  "dan_eisen": [
+    {
+      "dan_eis": 1,
+      "categorieën": [
+        {
+          "categorie": "Staand",
+          "vragen": [
+            "Laat 3 combinaties zien (renraku-waza)",
+            "Laat 3 overnames zien (gaeshi-waza)",
+            "Laat 3 hikomi technieken zien (hikomi-waza)"
+          ]
+        },
+        {
+          "categorie": "Grond",
+          "vragen": [
+            "Laat een variatie zien op de kesa-gatame (osae-komi-waza)",
+            "Laat een variatie zien op de yoko-shiho-gatame (osae-komi-waza)",
+            "Laat een variatie zien op de tate-shiho-gatame (osae-komi-waza)",
+            "Laat een variatie zien op de kami-shiho-gatame (osae-komi-waza)",
+            "Demonstreer 2 willekeurige houdgrepen vanuit nage-waza (osae-komi-waza)",
+            "Demonstreer 2 willekeurige houdgrepen vanuit uke rugligging (passeren) (osae-komi-waza)",
+            "Demonstreer 2 willekeurige houdgrepen vanuit uke bokzit (osae-komi-waza)",
+            "Demonstreer 2 willekeurige houdgrepen vanuit uke buikligging (osae-komi-waza)",
+            "Demonstreer 2 willekeurige houdgrepen vanuit tori bokzit (osae-komi-waza)",
+            "Demonstreer 2 willekeurige houdgrepen vanuit tori rugligging (osae-komi-waza)",
+            "Laat een bevrijding zien op de kesa-gatame (osae-komi-waza)",
+            "Laat een bevrijding zien op de yoko-shiho-gatame (osae-komi-waza)",
+            "Laat een bevrijding zien op de tate-shiho-gatame (osae-komi-waza)",
+            "Laat een bevrijding zien op de kami-shiho-gatame (osae-komi-waza)",
+            "Demonstreer 3 willekeurige omstrengelingen vanuit nage-waza (shime-waza)",
+            "Demonstreer 3 willekeurige omstrengelingen vanuit uke rugligging (passeren) (shime-waza)",
+            "Demonstreer 3 willekeurige omstrengelingen vanuit uke bokzit (shime-waza)",
+            "Demonstreer 3 willekeurige omstrengelingen vanuit uke buikligging (shime-waza)",
+            "Demonstreer 3 willekeurige omstrengelingen vanuit tori bokzit (shime-waza)",
+            "Demonstreer 3 willekeurige omstrengelingen vanuit tori buikligging (shime-waza)",
+            "Demonstreer 3 armklemmen vanuit nage-waza (kansetsu-waza)",
+            "Demonstreer 3 armklemmen vanuit uke rugligging (passeren) (kansetsu-waza)",
+            "Demonstreer 3 armklemmen vanuit uke bokzit (kansetsu-waza)",
+            "Demonstreer 3 armklemmen vanuit uke buikligging (kansetsu-waza)",
+            "Demonstreer 3 armklemmen vanuit tori bokzit (kansetsu-waza)",
+            "Demonstreer 3 armklemmen vanuit tori buikligging (kansetsu-waza)"
+          ]
+        }
+      ]
+    },
+    {
+      "dan_eis": 2,
+      "categorieën": [
+        {
+          "categorie": "Staand",
+          "vragen": [
+            "Laat 1 combinatie zien op een voorwaartse worp (renraku-waza)",
+            "Laat 1 combinatie zien op een achterwaartse worp (renraku-waza)",
+            "Laat 1 combinatie zien van een rechter naar een linker worp of vice-versa (renraku-waza)",
+            "Laat 2 overnames zien op een voorwaartse worp (gaeshi-waza)",
+            "Laat 2 overnames zien op een achterwaartse worp (gaeshi-waza)",
+            "Geef antwoord op een duwende en een trekkende uke (interactief judo)",
+            "Laat een techniek zien vanuit kumi-kata spel in 2 verschillende pakkingen (interactief judo)",
+            "Laat 4 hikomi technieken zien (hikomi-waza)"
+          ]
+        },
+        {
+          "categorie": "Grond",
+          "vragen": [
+            "Laat een variatie zien op de kesa-gatame (osae-komi-waza)",
+            "Laat een variatie zien op de yoko-shiho-gatame (osae-komi-waza)",
+            "Laat een variatie zien op de tate-shiho-gatame (osae-komi-waza)",
+            "Laat een variatie zien op de kami-shiho-gatame (osae-komi-waza)",
+            "Laat een variatie zien op de kata-gatame (osae-komi-waza)",
+            "Demonstreer 3 willekeurige houdgrepen vanuit nage-waza (osae-komi-waza)",
+            "Demonstreer 3 willekeurige houdgrepen vanuit uke rugligging (passeren) (osae-komi-waza)",
+            "Demonstreer 3 willekeurige houdgrepen vanuit uke bokzit (osae-komi-waza)",
+            "Demonstreer 3 willekeurige houdgrepen vanuit uke buikligging (osae-komi-waza)",
+            "Demonstreer 3 willekeurige houdgrepen vanuit tori bokzit (osae-komi-waza)",
+            "Demonstreer 3 willekeurige houdgrepen vanuit tori rugligging (osae-komi-waza)",
+            "Laat twee bevrijdingen zien op de kesa-gatame (osae-komi-waza)",
+            "Laat twee bevrijdingen zien op de yoko-shiho-gatame (osae-komi-waza)",
+            "Laat twee bevrijdingen zien op de tate-shiho-gatame (osae-komi-waza)",
+            "Laat twee bevrijdingen zien op de kami-shiho-gatame (osae-komi-waza)",
+            "Laat twee bevrijdingen zien op de kata-gatame (osae-komi-waza)",
+            "Demonstreer 5 willekeurige omstrengelingen vanuit nage-waza (shime-waza)",
+            "Demonstreer 5 willekeurige omstrengelingen vanuit uke rugligging (passeren) (shime-waza)",
+            "Demonstreer 5 willekeurige omstrengelingen vanuit uke bokzit (shime-waza)",
+            "Demonstreer 5 willekeurige omstrengelingen vanuit uke buikligging (shime-waza)",
+            "Demonstreer 5 willekeurige omstrengelingen vanuit tori bokzit (shime-waza)",
+            "Demonstreer 5 willekeurige omstrengelingen vanuit tori buikligging (shime-waza)",
+            "Demonstreer 4 armklemmen vanuit nage-waza (kansetsu-waza)",
+            "Demonstreer 4 armklemmen vanuit uke rugligging (passeren) (kansetsu-waza)",
+            "Demonstreer 4 armklemmen vanuit uke bokzit (kansetsu-waza)",
+            "Demonstreer 4 armklemmen vanuit uke buikligging (kansetsu-waza)",
+            "Demonstreer 4 armklemmen vanuit tori bokzit (kansetsu-waza)",
+            "Demonstreer 4 armklemmen vanuit tori buikligging (kansetsu-waza)"
+          ]
+        }
+      ]
+    },
+    {
+      "dan_eis": 3,
+      "categorieën": [
+        {
+          "categorie": "Staand",
+          "vragen": [
+            "Laat 2 combinaties zien op een voorwaartse worp (renraku-waza)",
+            "Laat 2 combinaties zien op een achterwaartse worp (renraku-waza)",
+            "Laat 2 combinaties zien van een rechter naar een linker worp of vice-versa (renraku-waza)",
+            "Laat 3 overnames zien op een voorwaartse worp (gaeshi-waza)",
+            "Laat 3 overnames zien op een achterwaartse worp (gaeshi-waza)",
+            "Geef antwoord op een duwende en een trekkende uke (interactief judo)",
+            "Geef antwoord op een met één hand vastpakkende uke (interactief judo)",
+            "Laat twee technieken zien vanuit kumi-kata spel in 3 verschillende pakkingen (interactief judo)",
+            "Laat 5 hikomi technieken zien (hikomi-waza)"
+          ]
+        },
+        {
+          "categorie": "Grond",
+          "vragen": [
+            "Laat een variatie zien op de kesa-gatame (osae-komi-waza)",
+            "Laat een variatie zien op de yoko-shiho-gatame (osae-komi-waza)",
+            "Laat een variatie zien op de tate-shiho-gatame (osae-komi-waza)",
+            "Laat een variatie zien op de kami-shiho-gatame (osae-komi-waza)",
+            "Laat een variatie zien op de kata-gatame (osae-komi-waza)",
+            "Demonstreer 5 willekeurige houdgrepen vanuit nage-waza (osae-komi-waza)",
+            "Demonstreer 5 willekeurige houdgrepen vanuit uke rugligging (passeren) (osae-komi-waza)",
+            "Demonstreer 5 willekeurige houdgrepen vanuit uke bokzit (osae-komi-waza)",
+            "Demonstreer 5 willekeurige houdgrepen vanuit uke buikligging (osae-komi-waza)",
+            "Demonstreer 5 willekeurige houdgrepen vanuit tori bokzit (osae-komi-waza)",
+            "Demonstreer 5 willekeurige houdgrepen vanuit tori rugligging (osae-komi-waza)",
+            "Laat twee bevrijdingen zien op de kesa-gatame (osae-komi-waza)",
+            "Laat twee bevrijdingen zien op de yoko-shiho-gatame (osae-komi-waza)",
+            "Laat twee bevrijdingen zien op de tate-shiho-gatame (osae-komi-waza)",
+            "Laat twee bevrijdingen zien op de kami-shiho-gatame (osae-komi-waza)",
+            "Laat twee bevrijdingen zien op de kata-gatame (osae-komi-waza)",
+            "Demonstreer 6 willekeurige omstrengelingen vanuit nage-waza (shime-waza)",
+            "Demonstreer 6 willekeurige omstrengelingen vanuit uke rugligging (passeren) (shime-waza)",
+            "Demonstreer 6 willekeurige omstrengelingen vanuit uke bokzit (shime-waza)",
+            "Demonstreer 6 willekeurige omstrengelingen vanuit uke buikligging (shime-waza)",
+            "Demonstreer 6 willekeurige omstrengelingen vanuit tori bokzit (shime-waza)",
+            "Demonstreer 6 willekeurige omstrengelingen vanuit tori buikligging (shime-waza)",
+            "Demonstreer 5 armklemmen vanuit nage-waza (kansetsu-waza)",
+            "Demonstreer 5 armklemmen vanuit uke rugligging (passeren) (kansetsu-waza)",
+            "Demonstreer 5 armklemmen vanuit uke bokzit (kansetsu-waza)",
+            "Demonstreer 5 armklemmen vanuit uke buikligging (kansetsu-waza)",
+            "Demonstreer 5 armklemmen vanuit tori bokzit (kansetsu-waza)",
+            "Demonstreer 5 armklemmen vanuit tori buikligging (kansetsu-waza)"
+          ]
+        }
+      ]
+    }
+  ]
+}
